@@ -1,0 +1,23 @@
+/* odd-numbered p-elements */
+.odd-number {
+    background-color: pink;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+/* smaller font size */
+.font-px {
+    font-size: 24px;
+}
+
+/* unique ID - 2 */
+#id-2 {
+    color: blue;
+    font-size: 36px;
+}
+
+/* unique ID - 4 */
+#id-4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
