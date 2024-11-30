@@ -8,10 +8,28 @@ body {
   font-family: Besley, serif;
 }
 
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+}
+
+.links-lhs {
+  /* margin-right: auto; */
+  display: flex;
+  justify-content: start;
+}
+
+.rhs {
+  display: inline-block;
+  justify-content: end;
 }
 
 .profile-image {
