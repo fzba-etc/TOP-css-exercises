@@ -22,14 +22,13 @@ li {
 }
 
 .links-lhs {
-  /* margin-right: auto; */
-  display: flex;
-  justify-content: start;
+  margin-right: auto;
 }
 
 .rhs {
-  display: inline-block;
-  justify-content: end;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
