@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900px;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -25,14 +27,6 @@ img {
   background: #eee;
 }
 
-body {
-  text-align: center;
-}
-
-.title {
-  margin-bottom: 32px;
-}
-
 .fruits {
   display: flex;
   justify-content: center;
@@ -40,5 +34,13 @@ body {
 }
 
 .fruit-box {
-  max-width: 200px;
+  max-width: 200px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* notes: */
+/* .fruit-box 
+-> max-width is to set each box's maximum width because with flex, it will take up whatever space there is
+-> flex-direction is set to column to align the image & the text below it*/
