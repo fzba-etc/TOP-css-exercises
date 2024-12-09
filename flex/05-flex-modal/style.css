@@ -15,11 +15,26 @@ body {
   justify-content: center;
 }
 
+.header-container {
+  display: inline-block;
+}
+
+.LHS {
+  display: flex;
+  justify-content: start;
+  margin: 15px;
+}
+
+.RHS {
+  display: flex;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
 }
 
 .icon {
