@@ -41,6 +41,9 @@ input {
 
 .footer {
   background-color: #eee;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .left-links {
