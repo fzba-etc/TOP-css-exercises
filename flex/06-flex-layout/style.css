@@ -35,9 +35,8 @@ input {
 
 .header, .footer {
   display: flex;
-  justify-content: space-around;
-  gap: 850px;
-  margin-left: -45px;
+  justify-content: space-between;
+  margin-left: -35px;
 }
 
 .footer {
