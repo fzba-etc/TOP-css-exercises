@@ -37,11 +37,11 @@ input {
   display: flex;
   justify-content: space-around;
   gap: 850px;
-  /* margin-right: 45px; */
+  margin-left: -45px;
 }
 
 .footer {
-  background-color: gainsboro;
+  background-color: #eee;
 }
 
 .left-links {
