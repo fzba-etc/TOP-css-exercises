@@ -7,8 +7,16 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 600px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 button {
@@ -23,4 +31,25 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 850px;
+  /* margin-right: 45px; */
+}
+
+.footer {
+  background-color: gainsboro;
+}
+
+.left-links {
+  display: flex;
+  gap: 1em;
+}
+
+.right-links {
+  display: flex;
+  gap: 1em;
 }
